@@ -1,0 +1,51 @@
+C:\Users\Aspire  V5\Desktop\myTest\login\login\bin\Debug\login.exe
+C:\Users\Aspire  V5\Desktop\myTest\login\login\bin\Debug\login.pdb
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.Form1.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.Properties.Resources.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.exe
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.pdb
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.welcome.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.EditAndCalculate.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.Insert.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.Edit.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.delete.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.AboutUs.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.ViewBuildingFlow.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.CalculateMaterialPrice.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.Result.resources
+F:\myTest\login\login\obj\x86\Debug\login.exe
+F:\myTest\login\login\obj\x86\Debug\login.pdb
+F:\ \myTest\login\login\obj\x86\Debug\login.exe
+F:\ \myTest\login\login\obj\x86\Debug\login.pdb
+E:\myTest\login\login\obj\x86\Debug\login.exe
+E:\myTest\login\login\obj\x86\Debug\login.pdb
+E:\myTest\login\login\bin\Debug\login.exe
+E:\myTest\login\login\bin\Debug\login.pdb
+E:\myTest\login\login\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\myTest\login\login\obj\x86\Debug\login.AboutUs.resources
+E:\myTest\login\login\obj\x86\Debug\login.Calculate.resources
+E:\myTest\login\login\obj\x86\Debug\login.CalculateMaterialPrice.resources
+E:\myTest\login\login\obj\x86\Debug\login.delete.resources
+E:\myTest\login\login\obj\x86\Debug\login.Edit.resources
+E:\myTest\login\login\obj\x86\Debug\login.EditAndCalculate.resources
+E:\myTest\login\login\obj\x86\Debug\login.Form1.resources
+E:\myTest\login\login\obj\x86\Debug\login.Insert.resources
+E:\myTest\login\login\obj\x86\Debug\login.Properties.Resources.resources
+E:\myTest\login\login\obj\x86\Debug\login.Result.resources
+E:\myTest\login\login\obj\x86\Debug\login.ViewBuildingFlow.resources
+E:\myTest\login\login\obj\x86\Debug\login.welcome.resources
+E:\myTest\login\login\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\myTest\login\login\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\myTest\login\login\obj\x86\Debug\login.EditMember.resources
+E:\myTest\login\login\obj\x86\Debug\login.InsertMember.resources
+E:\myTest\login\login\obj\x86\Debug\login.UpdateMember.resources
+E:\myTest\login\login\obj\x86\Debug\login.DeleteMember.resources
+E:\myTest\login\login\obj\x86\Debug\login.ViewMemberTable.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.DeleteMember.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.EditMember.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.InsertMember.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.UpdateMember.resources
+C:\Users\Aspire  V5\Desktop\myTest\login\login\obj\x86\Debug\login.ViewMemberTable.resources

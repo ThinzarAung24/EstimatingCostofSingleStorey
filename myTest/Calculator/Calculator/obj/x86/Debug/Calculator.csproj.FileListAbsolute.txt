@@ -1,0 +1,9 @@
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\Aspire  V5\Desktop\myTest\Calculator\Calculator\obj\x86\Debug\Calculator.pdb

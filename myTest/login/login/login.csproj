@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61531963-2647-42D2-B4E8-9380ED4E09E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>login</RootNamespace>
+    <AssemblyName>login</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculateMaterialPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculateMaterialPrice.Designer.cs">
+      <DependentUpon>CalculateMaterialPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete.Designer.cs">
+      <DependentUpon>delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteMember.Designer.cs">
+      <DependentUpon>DeleteMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditAndCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAndCalculate.Designer.cs">
+      <DependentUpon>EditAndCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMember.Designer.cs">
+      <DependentUpon>EditMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert.Designer.cs">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertMember.Designer.cs">
+      <DependentUpon>InsertMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateMember.Designer.cs">
+      <DependentUpon>UpdateMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBuildingFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBuildingFlow.Designer.cs">
+      <DependentUpon>ViewBuildingFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMemberTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMemberTable.Designer.cs">
+      <DependentUpon>ViewMemberTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalculateMaterialPrice.resx">
+      <DependentUpon>CalculateMaterialPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete.resx">
+      <DependentUpon>delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteMember.resx">
+      <DependentUpon>DeleteMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAndCalculate.resx">
+      <DependentUpon>EditAndCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMember.resx">
+      <DependentUpon>EditMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertMember.resx">
+      <DependentUpon>InsertMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMember.resx">
+      <DependentUpon>UpdateMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBuildingFlow.resx">
+      <DependentUpon>ViewBuildingFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMemberTable.resx">
+      <DependentUpon>ViewMemberTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1495437333397.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1495437336822.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1495633140949.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1495633146964.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1495633457563.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_316767445420832.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_316888845408692.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1497678327194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_123207.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_123557.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_251435632001520.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_123130.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_123228.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_123147.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170617_1231471.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1868.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1856.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1872.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1882.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18821.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18561.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18721.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170619_122104.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170619_1221041.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18822.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18562.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_18722.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_528947487437895.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_528947510771226.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_528947574104553.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_320017668429143.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaptureBeam2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture33.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Room.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chocket.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chockett.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_332578487173061.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roof1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roof2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-03-11-51-53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-03-11-51-531.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stair2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stair3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocket2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocket21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocket22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocket23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341571752940401.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572156273694.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572526273657.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_528947560771221.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_528947534104557.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-05-20-37-28.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wall9inches.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-14-08-34-11.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocket24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture111.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572489606994.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gutter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572749606968.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-22-22-13-03.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-05-14-47-31.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572719606971.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572722940304.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572696273640.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572192940357.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-05-14-33-23.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-22-22-25-04.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_341572242940352.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-05-20-40-14.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_220959391749667.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-13-01-56.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-12-57-33.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-13-02-22.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-13-02-221.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-12-57-331.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seasons_06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images_083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images_0831.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0020.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0044.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKGROUNDS_MAIN_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0018.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00181.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0043.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-30-37.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-26-56.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-17-16.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-40-30.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-40-02.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-22-09.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-21-26.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-38-47.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-38-26.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-32-51.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-26-17-35-30.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-12-58-28.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-12-58-281.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0014.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_36286771010701.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-20-51-41.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-05-14-47-311.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_105402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_131206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_105341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_105325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_105444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_105709.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_1053411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2017-07-25-12-57-00.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_105636.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_105259.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_105515.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170727_131121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_105540.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_105410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192623.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00182.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0019.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192434.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192555.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170727_1056261.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192630.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192609.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192603.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_1926231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192716.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_212121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_2121211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_212128.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_192709.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170731_071326.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170731_071621.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170731_072115.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20170728_211845.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\b1.jpg" />
+    <None Include="Resources\BACKGROUNDS_MAIN_11.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
